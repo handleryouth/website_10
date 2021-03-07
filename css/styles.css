@@ -62,6 +62,23 @@ body{
   border-radius: 0.4em;
 }
 
+input[type="text"]{
+  font-family: 'Poppins', sans-serif;
+  padding-left: 1em;
+}
+
+ input[type="email"]{
+   font-family: 'Poppins', sans-serif;
+   padding-left: 1em;
+ }
+
+ input[type="password"]{
+   font-family: 'Poppins', sans-serif;
+   padding-left: 1em;
+ }
+
+
+
 .admit-button{
   background-color: hsl(154, 59%, 51%);
 }
@@ -96,6 +113,11 @@ body{
 
 
 @media (max-width: 983px){
+  body{
+    background-image: url("../images/bg-intro-mobile.png");
+  }
+
+
   .main{
     display: flex;
     flex-direction: column;
